@@ -22,7 +22,7 @@
             android:id="@+id/main_name_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right|end"
+            android:layout_gravity="bottom|end|right"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:background="#3000"
@@ -91,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                tools:text="A description, long enoug to get an idea of how this should work" />
+                tools:text="A description, long enough to get an idea of how this should work" />
 
             <TextView
                 android:layout_width="match_parent"

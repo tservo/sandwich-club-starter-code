@@ -1,6 +1,5 @@
 package com.udacity.sandwichclub.utils;
 
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.udacity.sandwichclub.model.Sandwich;
@@ -10,14 +9,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+
 
 
 public class JsonUtils {
-    private static String TAG = JsonUtils.class.getSimpleName();
+    private static final String TAG = JsonUtils.class.getSimpleName();
 
     public static Sandwich parseSandwichJson(String json) {
         Log.d(TAG,json);

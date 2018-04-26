@@ -12,9 +12,7 @@ import com.udacity.sandwichclub.model.Sandwich;
 import com.udacity.sandwichclub.utils.JsonUtils;
 
 import java.util.List;
-import java.util.ListIterator;
-import java.util.StringJoiner;
-import java.util.stream.Collectors;
+
 
 public class DetailActivity extends AppCompatActivity {
 
